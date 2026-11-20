@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo CSS</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        .caixa-principal{
+            height: 200px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-family: sans-serif;
+            
+            
+        }
+        .list-header{
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+        }
+        .bloco1{
+            height: 100px;
+            width: 700px;
+            background-color: blue;
+            display: flex;
+   
+        }
+        .bloco11{
+            height: 100px;
+            width: 500px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .bloco12{
+            height: 100px;
+            width: 500px;
+            background-color: yellow;
+            display: flex;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+       
+        
+        .bloco2{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header class="caixa-principal">
+         <div class="bloco1">
+            <div class="bloco11">
+                <ul>
+                    <li>imagem</li>
+                    <li>bloco de pesquisa</li>
+                </ul> 
+            </div>
+            <div class="bloco12">
+                <ul class="list-header">
+                    <li>Categorias</li>
+                    <li>Ofertas</li>
+                    <li>Cupons</li>
+                    <li>Supermercado</li>
+                    <li>Mercado play</li>
+                    <li>Vender</li>
+                    <li>Contato</li>
+                    
+                </ul>
+            </div>
+        </div>
+         <div class="bloco2"> </div>
+         
+         
+         
+    </header>     
+</body>
+</html>
